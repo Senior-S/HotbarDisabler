@@ -1,0 +1,12 @@
+name: HotbarDisabler
+version: '${project.version}'
+main: com.seniors.hotbardisabler.hotbardisabler.HotbarDisabler
+api-version: 1.18
+depend: [ ProtocolLib ]
+authors: [ SeniorS ]
+description: A simple plugin used to disable the hotbar using ProtocolLib
+commands:
+  hotbar:
+    description: Main command for the HotbarDisabler plugin.
+    usage: /<command> enable/disable
+    aliases: [hb]
